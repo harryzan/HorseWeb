@@ -1,0 +1,18 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:context="http://www.springframework.org/schema/context"
+     xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context-3.0.xsd"
+        default-lazy-init="false">
+    <description>Spring公共配置文件</description>
+
+    <!-- 设定slf4j处理cxf中java.util.logging打印的日志 -->
+    <!--<bean id="julOverSlf4j" class="com.justone.core.utils.JulOverSlf4jProcessor" lazy-init="false"/>-->
+
+    <!-- 使用annotation 自动注册bean,并检查@Required,@Autowired的属性已被注入 -->
+    <context:component-scan base-package="com.horseweb"/>
+    <!--<context:component-scan base-package="test.service"/>-->
+
+</beans>
