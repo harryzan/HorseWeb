@@ -54,7 +54,6 @@
     <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.18" level="project" />
     <orderEntry type="library" name="Maven: commons-fileupload:commons-fileupload:1.2.2" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.0.1" level="project" />
-    <orderEntry type="library" name="Maven: com.sun:tools:1.5.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.struts:struts2-spring-plugin:2.3.1.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.struts:struts2-convention-plugin:2.3.1.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.struts:struts2-config-browser-plugin:2.3.1.2" level="project" />
