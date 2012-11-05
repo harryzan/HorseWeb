@@ -20,6 +20,8 @@ public class Horse extends BaseDomain {
 
     private String Content;
 
+    private String lang;
+
     public String getName() {
         return name;
     }
@@ -66,5 +68,13 @@ public class Horse extends BaseDomain {
 
     public void setContent(String content) {
         Content = content;
+    }
+
+    public String getLang() {
+        return lang;
+    }
+
+    public void setLang(String lang) {
+        this.lang = lang;
     }
 }

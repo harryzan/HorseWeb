@@ -13,6 +13,6 @@
         <constructor-arg name="databaseName" value="health"/>
     </bean>
 
-    <mongo:repositories base-package="com.justone.health.center.core.repository" />
+    <mongo:repositories base-package="com.horseweb.core.repository" />
 
 </beans>

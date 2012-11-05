@@ -8,6 +8,9 @@ package com.horseweb.core.domain;
  * To change this template use File | Settings | File Templates.
  */
 public class Home extends BaseDomain {
+
+    public static String[] columnnames = {"pic", "horse1", "horse2", "horse3", "aboutus1", "aboutus2", "highlight"};
+
     private String name;
 
     private Integer order;

@@ -11,4 +11,6 @@ import org.springframework.data.mongodb.repository.MongoRepository;
  */
 public interface AboutusRepository extends MongoRepository<Aboutus,String> {
 
+    public Aboutus findOneByName(String name);
+
 }

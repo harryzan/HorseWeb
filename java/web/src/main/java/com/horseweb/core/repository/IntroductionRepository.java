@@ -11,4 +11,8 @@ import org.springframework.data.mongodb.repository.MongoRepository;
  */
 public interface IntroductionRepository extends MongoRepository<Introduction,String> {
 
+    public Introduction findOneByName(String name);
+
+    public Introduction findOneByNameAndLang(String name, String lang);
+
 }
